@@ -26,7 +26,6 @@ const List = () => {
     }
   }, [limit, total, data]);
 
-  console.log(marked)
   return (
     <div className="container">
       {loading && <p>Loading...</p>}

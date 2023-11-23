@@ -22,7 +22,7 @@ describe("Repo tests", () => {
         orgName="Flexera"
         repoName="Flexera Web"
         description="Flexera Web"
-        marked="false"
+        marked={false}
         setMarked={[]}
         id={2}
       />
