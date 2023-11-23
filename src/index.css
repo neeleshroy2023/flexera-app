@@ -1,3 +1,7 @@
+.card {
+    margin-bottom: 20px;
+    padding: 20px;
+}
 .repo-card-body {
     display: flex;
     gap: 20px;
