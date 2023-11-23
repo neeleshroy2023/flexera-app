@@ -28,7 +28,7 @@ const List = () => {
 
   return (
     <div className="container main">
-      {loading && <p>Loading...</p>}
+      {loading && <div className="lds-dual-ring"></div>}
       {data ? (
         data?.map((repo) => (
           <Repo
