@@ -34,9 +34,10 @@ Welcome to the Flexera UI Engineer assignment repository! This project is built 
   Both End-to-End (E2E) tests and unit tests are written for different files using Jest, React Testing Library, and Puppeteer.
 
   This particular line:
-  ```testEnvironment: "jsdom"```
-  Should be commented if checking for puppeteer E2E tests
-  Should be uncommented if checking for unit tests
+  ```testEnvironment: "jsdom"
+  + Should be commented if checking for puppeteer E2E tests
+  + Should be uncommented if checking for unit tests`
+  ``
 
   #### Mind that commenting one will fail another. Ideally we have two separate projects for e2e and unit tests. We can also use npm commands to differentiate and target tests. But, time :(
 
