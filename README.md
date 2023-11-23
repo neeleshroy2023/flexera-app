@@ -71,6 +71,9 @@ Welcome to the Flexera UI Engineer assignment repository! This project is built 
    Provide insights into repository trends, giving users a better understanding of the data.
 
 8. **Interactive Dashboards:**
-   Create interactive dashboards that allow users to visualize and analyze repository data in a more engaging way.
+   Create interactive dashboards that allow users to visualize and analyze repository data in a more engaging way
+
+9. **Snackbars for visual feedback:**
+   Better error handling and visual copies for user
 
 Feel free to explore, contribute, and provide feedback! If you have any questions or issues, please open an [issue](https://github.com/your-username/flexera-ui-assignment/issues).
