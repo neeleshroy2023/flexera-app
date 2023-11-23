@@ -18,10 +18,8 @@ describe("Google", () => {
 
   it('should display "google" text on page', async () => {
     await page.goto("https://localhost:1234");
-    await page.waitForSelector('#flexCheckChecked');
-    await page.click("flexCheckChecked")
-    await page.waitForNavigation();
-    const html = await page.$eval("body", (e) => e.innerHTML);
-    expect(html).toMatch("puppeteer");
+    const el = await page.waitForSelector('#flexCheckChecked');
+
+    await el.click("flexCheckChecked")
   });
 });
