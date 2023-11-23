@@ -1,13 +1,13 @@
 // __tests__/main.e2e.test.js
 const puppeteer = require("puppeteer");
 
-describe("Google", () => {
+describe("Main E2E", () => {
   let browser;
   let page;
 
   beforeAll(async () => {
     browser = await puppeteer.launch({
-      headless: "new"
+      headless: false
     });
     page = await browser.newPage();
   });
@@ -16,10 +16,9 @@ describe("Google", () => {
     await browser.close();
   });
 
-  it('should display "google" text on page', async () => {
-    await page.goto("https://localhost:1234");
+  it('should check the checkbox', async () => {
+    await page.goto("http://localhost:1234");
     const el = await page.waitForSelector('#flexCheckChecked');
-
     await el.click("flexCheckChecked")
   });
 });
