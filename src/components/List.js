@@ -27,7 +27,7 @@ const List = () => {
   }, [limit, total, data]);
 
   return (
-    <div className="container">
+    <div className="container main">
       {loading && <p>Loading...</p>}
       {data ? (
         data?.map((repo) => (
